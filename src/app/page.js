@@ -26,21 +26,24 @@ const Home1 = () => {
     <>
       <NavbarOne />
       <BannerOne />
-      {/* <TicketOne styleNum={1} />
-      {/* <CountDown styleNum={0} />
-      <HighlightOne styleNum={0} />
-      <Award />
-      <ScrollSection />
-      <LineupOne />
       <Separator className={"mt-100 mt-lg-150 mt-xxl-180"} />
-      <ScheduleOne />
-      <Pricing styleNum={0} styleNum2={0} />
+
+      <HighlightOne styleNum={0} />
+
+      {/* <TicketOne styleNum={1} />
+      <CountDown styleNum={0} />
+      <ScrollSection />
+      <LineupOne /> */}
+      <Separator className={"mt-100 mt-lg-150 mt-xxl-180"} />
+      {/* <ScheduleOne /> */}
+      {/* <Pricing styleNum={0} styleNum2={0} /> */}
+      {/* <SponsorSlider styleNum={0} /> */}
+      {/* <Award /> */}
       <Faq styleNum={0} />
-      <SponsorSlider styleNum={0} /> */}
       <Gallery styleNum={0} />
-      <BlogOne />
+      {/* <BlogOne /> */}
       <Cta styleNum={5} />
-      <SubscriptionOne styleNum={0} />
+      {/* <SubscriptionOne styleNum={0} /> */}
       <FooterOne />
     </>
   );

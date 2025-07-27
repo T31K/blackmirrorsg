@@ -25,15 +25,17 @@ const BannerOne = () => {
 
         <div className="container">
           <div className="hero-8-inner">
-            <Image
-              src={musicfest_2}
-              className="musicfest-image mb-20 mb-xxl-40"
-              alt="img"
-            />
-            <h1 className="hero-heading-text text-white text-uppercase custom-poppins mb-3 mb-xxl-20">
-              Aural Euphoria
+            <p
+              className="text-white custom-canterbury mb-3 mb-xxl-20 ml-5"
+              style={{ fontSize: "50px" }}
+            >
+              Black Mirror
+            </p>
+            <h1 className="soundscapes fs-120 fw-extra-bold mb-0 custom-canterbury">
+              Featuring <br />
+              DJ Joeru
             </h1>
-            <BannerSponsor parentClass={"mb-40 mb-lg-0 hero-brand-images"} />
+            {/* <BannerSponsor parentClass={"mb-40 mb-lg-0 hero-brand-images"} /> */}
           </div>
           {/* <!-- hero-inner-text --> */}
         </div>
