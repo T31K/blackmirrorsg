@@ -25,13 +25,7 @@ const BannerOne = () => {
 
         <div className="container">
           <div className="hero-8-inner">
-            <p
-              className="text-white custom-canterbury mb-3 mb-xxl-20 ml-5"
-              style={{ fontSize: "50px" }}
-            >
-              Black Mirror
-            </p>
-            <h1 className="soundscapes fs-120 fw-extra-bold mb-0 custom-canterbury">
+            <h1 className="soundscapes fs-120 fw-extra-bold mb-0">
               Featuring <br />
               DJ Joeru
             </h1>

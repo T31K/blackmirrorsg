@@ -25,8 +25,12 @@ const NavbarOne = () => {
           <nav className="navbar navbar-expand-xl">
             <div className="d-flex w-100 justify-content-between align-items-center">
               <Link className="navbar-brand" href="/" aria-label="nav-brands">
-                <Image src={logo} className="logo-light" alt="logo" />
-                <Image src={logo_dark} className="logo-dark" alt="logo" />
+                <p
+                  className="text-white custom-canterbury"
+                  style={{ fontSize: "30px" }}
+                >
+                  Black Mirror
+                </p>
               </Link>
 
               <button
