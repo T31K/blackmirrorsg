@@ -4,7 +4,7 @@ import React from "react";
 import EventDate from "@/components/common/EventDate";
 import BannerSponsor from "@/components/common/BannerSponsor";
 
-import hero_img_8 from "@/assets/images/hero-8-image.webp";
+import hero_img_8 from "@/assets/images/hero-8-image-2.webp";
 import musicfest_2 from "@/assets/images/global/musicfest-2.png";
 
 const BannerOne = () => {
